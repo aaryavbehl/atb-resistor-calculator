@@ -9,5 +9,5 @@ if (args[0] === 'value') {
     const { value, tolerance } = getValueFromBands(bands);
     console.log(`Resistor Value: ${value} Ω ±${tolerance}%`);
 } else {
-    console.log('Usage: resistor-calculator [value <resistor_value>] | [bands <color1> <color2> <color3>]');
+    console.log('Usage: atb-resistor-calculator [value <resistor_value>] | [bands <color1> <color2> <color3>]');
 }
