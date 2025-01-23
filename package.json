@@ -1,0 +1,14 @@
+{
+    "name": "atb-resistor-calculator",
+    "version": "1.0.0",
+    "description": "A very simple resistor calculator that anyone can use to find values from colors and find colors from values",
+    "main": "src/index.js",
+    "bin": {
+      "resistor-calculator": "src/cli.js"
+    },
+    "keywords": ["resistor", "calculator", "color-bands", "electronics"],
+    "author": "Lux",
+    "license": "MIT",
+    "dependencies": {}
+  }
+  
